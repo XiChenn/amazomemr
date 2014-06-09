@@ -40,8 +40,8 @@ public class WordCount {
         job.setOutputFormatClass(TextOutputFormat.class);
 
         if(devMode) {
-        FileInputFormat.addInputPath(job,input);
-        FileOutputFormat.setOutputPath(job, output);
+            FileInputFormat.addInputPath(job,input);
+            FileOutputFormat.setOutputPath(job, output);
 
         } else   {
 
