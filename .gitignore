@@ -2,7 +2,6 @@
 .project
 .idea
 *.class
-*.jar
 *.iml
 .classpath
 
